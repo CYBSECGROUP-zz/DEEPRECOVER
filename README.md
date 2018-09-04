@@ -1,8 +1,8 @@
-# C.S.G - Cyber Security Group | repository © 2018
+# C.S.G - Cyber Security Group | repository © 2018     Projects OpenSource
 
 www.cybsecgroup.com << WebPortal!
 
-www.forum.cybsecgroup.com << Forum!                       >>>>>>>>>>>    Projects Open Source
+www.forum.cybsecgroup.com << Forum!                      
 
 www.instagram.com/cybsecgroup << Instagram!
 
