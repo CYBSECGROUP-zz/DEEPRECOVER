@@ -6,9 +6,9 @@ clear
 echo "                            
                                   WWW.CYBSECGROUP.COM  
 
-    ხელსაწყოს რომელიც დაგეხმარებათ აღადგინოთ დაკარგული, წაშლილი ინფორმაცია ან მასალა!
+       Tools For Recover Your Image, Music, Video, Files, Documets and ....
 
-      რეკომენდირებულია Kali ლინუქსის ოპერაციულ სისტემაზე! "#FORUM.CYBSECGROUP.COM"
+            Recomended Debian Distributions From  "GEORGIAN GUYS"
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>|
                                                                                   |
@@ -22,107 +22,107 @@ echo "
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>|
                     
 
-                     Forensics \e[93mვერსია: 1.0\e[0m 
+                     Forensics \e[93mVersion: 1.0\e[0m 
 
 
      [\e[91m-------------------------------------------------\e[0m]
-     [\e[91m---\e[0m]          კოდერი: CYBSECGROUP            [\e[91m---\e[0m]
-     [\e[91m---\e[0m]   ინფორმაციული უსაფრთხოების ხელსაწყო    [\e[91m---\e[0m]
+     [\e[91m---\e[0m]          Author: CYBSECGROUP            [\e[91m---\e[0m]
+     [\e[91m---\e[0m]       Tool Information Security         [\e[91m---\e[0m]
      [\e[91m-------------------------------------------------\e[0m]
-     [\e[91m---\e[0m]           ..:.:\e[96mინსტრუქცია\e[0m:.:..       \e[0m   [\e[91m---\e[0m]
+     [\e[91m---\e[0m]           ..:.:\e[96mInstruction\e[0m:.:..       
      [\e[91m-------------------------------------------------\e[0m]
-     [\e[91m---\e[0m]   \e[91m1\e[0m) \e[96mფლეშკიდან ინფორმაციის აღდგენა\e[0m      [\e[91m---\e[0m]
-     [\e[91m---\e[0m]   \e[91m2\e[0m) \e[96mდისკიდან ინფორმაციის აღდგენა\e[0m       [\e[91m---\e[0m]
-     [\e[91m---\e[0m]   \e[91m3\e[0m) \e[96mბრაუზერიდან ინფორმაციის აღდგენა\e[0m    [\e[91m---\e[0m]
-     [\e[91m---\e[0m]   \e[91m4\e[0m) \e[96mდახმარება\e[0m                          [\e[91m---\e[0m]
-     [\e[91m---\e[0m]   \e[91m5\e[0m) \e[96mგანახლება\e[0m                          [\e[91m---\e[0m]
-     [\e[91m---\e[0m]   \e[91mX\e[0m) \e[96mგასვლა\e[0m                             [\e[91m---\e[0m]
-     [\e[91m-------------------------------------------------\e[0m]
-     [\e[91m„\e[0mკიბერ უსაფრთხოების ჯგუფი, Cyber Security Group \e[91m“\e[0m]
+     [\e[91m---\e[0m]   \e[91m1\e[0m) \e[96mRecover Information From USB Flash/SD\e[0m     
+     [\e[91m---\e[0m]   \e[91m2\e[0m) \e[96mRecover Information From CD/DVD RW\e[0m        
+     [\e[91m---\e[0m]   \e[91m3\e[0m) \e[96mRecover Information From Browser\e[0m      
+     [\e[91m---\e[0m]   \e[91m4\e[0m) \e[96mHelp\e[0m                                       
+     [\e[91m---\e[0m]   \e[91m5\e[0m) \e[96mUpdate\e[0m                                 
+     [\e[91m---\e[0m]   \e[91mX\e[0m) \e[96mExit\e[0m                                     
+     [\e[91m-------------------------------------------------
+     [\e[91m„\e[0m           Cyber Security Group - C.S.G         \e[91m“
 "
 
 #### PROMPT###############################################################
 
-     echo -n "\e[91m არჩევა:~$ \e[0m"
+     echo -n "\e[91m Select:~$ \e[0m"
 read anwser
 case "$anwser" in
 
 #MENU#### AUTO############################################################
 
 1) echo -n "[\e[91m-------------------------------------------------\e[0m]
-\e[33mფლეშკის შეერთების შემდეგ ვაჭერთ ENTER\e[0m
+\e[33mAfter Connect USB ENTER\e[0m
 [\e[91m-------------------------------------------------\e[0m]" && 
 sleep 10 && 
-echo "\e[33mკოდი გააქტიურდა...\e[0m
+echo "\e[33mCode Activation...\e[0m
 [\e[91m-------------------------------------------------\e[0m]" && 
 mkdir CYBSECrecoverUsb && 
-echo "\e[33mშეიქმნა განყოფილება CYBSECForensics...\e[0m
+echo "\e[33mCreating Folder CYBSECForensics...\e[0m
 [\e[91m-------------------------------------------------\e[0m]" && 
 cd CYBSECrecoverUsb &&  
 dir /dev/sdb && 
-echo "\e[33mმიმდინარეობს ფაილების წაკითხვა...\e[0m
+echo "\e[33mloading...\e[0m
 [\e[91m-------------------------------------------------\e[0m]" &&
-echo -n "-_*/მიუთითე სახელი/>"
+echo -n "-_*/write name/>"
 read name 
 xterm -e dcfldd if=/dev/sdb of="$name".dd && 
-echo "\e[33mფაილები წაკითხულია...\e[0m
+echo "\e[33mfiles seen...\e[0m
 [\e[91m-------------------------------------------------\e[0m]" && 
 mkdir MetaDataxD && 
 cd MetaDataxD && 
-echo "\e[33mმიმდინარეობს გაშიფრვა...\e[0m
+echo "\e[33mloading ...\e[0m
 [\e[91m-------------------------------------------------\e[0m]" && 
 xterm -e foremost -a -T -i ../$name.dd && 
-echo "\e[33m ინფორმაცია ინახება \e[91m$PWD/CYBSECGROUP/MetaDataxD\e[0m-ს განყოფილებაში. 
-ასევე გვეწვიეთ ფორუმზე FORUM.CYBSECGROUP.COM \e[0m
+echo "\e[33m Information save \e[91m$PWD/CYBSECGROUP/MetaDataxD\e[0m in forlder
+AUTHOR Cybsecgroup \e[0m
 [\e[91m-------------------------------------------------\e[0m]" ;;
 
 #### MANUAL###############################################################
 
 2) echo "[\e[91m-------------------------------------------------\e[0m]
-\e[33mშეკუმშვა და გადმოტანა დაიწყება 5 წამში...\e[0m"
+\e[33mLoading 5min...\e[0m"
 sleep 10 && 
 echo "[\e[91m-------------------------------------------------\e[0m]
-\e[33mკოდი გააქტიურდა...\e[0m" && 
+\e[33mActivated...\e[0m" && 
 mkdir CYBSECrecoverHDD && 
 echo "[\e[91m-------------------------------------------------\e[0m]
-\e[33mშეიქმნა განყოფილება CYBSECGROUP\e[0m" && 
+\e[33mMaked Folder CYBSECGROUP\e[0m" && 
 cd CYBSECrecoverHDD &&
 echo "[\e[91m-------------------------------------------------\e[0m]
-\e[33mდისკების ჩამონათვალი...\e[0m"
+\e[33mDisk List...\e[0m"
 echo "[\e[91m-------------------------------------------------\e[0m]" &&
 dir /dev/sd* |grep "/dev/sd*" --color&&
 echo "[\e[91m-------------------------------------------------\e[0m]" &&
 fdisk -l | grep "/dev/sd*" --color &&
-echo -n "აირჩიეთ დისკების ჩამონათვალი. მაგალითად:(/dev/sda* ან /dev/sdb*): "
+echo -n "Select List Disk. EX:(/dev/sda* or /dev/sdb*): "
 read sd
-echo "\e[33mმიმდინარეობს ფაილების წაკითხვა...\e[0m
+echo "\e[33mLoading...\e[0m
 [\e[91m-------------------------------------------------\e[0m]"
-echo -n "-_*/მიუთითეთ სახელი/>"
+echo -n "-_*/write name/>"
 read namee
 xterm -e dcfldd if=$sd of=$namee.dd
-echo "\e[33mფაილები წაკითხულია...\e[0m
+echo "\e[33mFiles Seen...\e[0m
 [\e[91m-------------------------------------------------\e[0m]" && 
 mkdir MetaDataxD && 
 cd MetaDataxD && 
-echo "\e[33mაირჩიეთ ფორმატი. მაგალითად exe,jpg,php,txt,rar და ა.შ\e[0m
+echo "\e[33mselect format. EX: exe,jpg,php,txt,rar & etc.\e[0m
 [\e[91m-------------------------------------------------\e[0m]" && 
-echo -n "-_*/მიუთითეთ ფორმატი/>"
+echo -n "-_*/Select format/>"
 read choose
-echo "\e[33mმიმდინარეობს გაშიფვრა...\e[0m
+echo "\e[33mloading....\e[0m
 [\e[91m-------------------------------------------------\e[0m]" && 
 xterm -e foremost -T -t $choose -i ../$namee.dd && 
-echo "\e[33m ინფორმაცია ინახება $PWD/CYBSECGROUP/MetaDataxD-ს განყოფილებაში. 
-ასევე გვეწვიე ფორუმზე FORUM.CYBSECGROUP.COM \e[0m
+echo "\e[33m Save in $PWD/CYBSECGROUP/MetaDataxD Folder 
+From GEORGIA \e[0m
 [\e[91m-------------------------------------------------\e[0m]" 
  ;;
 
 ### Browser################################################################
 
 3) echo "[\e[91m-------------------------------------------------\e[0m]
-იძებნება ფაილი...
-[\e[91m-------------------------------------------------\e[0m]" && cp -r /root/.mozilla/firefox/ HistoryCache &&echo "მოიძებნა ფაილი
-[\e[91m-------------------------------------------------\e[0m]" && echo "მიმდინარეობს ფაილის გამზადება..
-[\e[91m-------------------------------------------------\e[0m]" && mv HistoryCache/*.default/ Log && rm -r HistoryCache && echo -n "ფაილის ჩასატვირთათ აირჩიეთ ტიპი:"  
+Loading File...
+[\e[91m-------------------------------------------------\e[0m]" && cp -r /root/.mozilla/firefox/ HistoryCache &&echo "Find File
+[\e[91m-------------------------------------------------\e[0m]" && echo "Loading...
+[\e[91m-------------------------------------------------\e[0m]" && mv HistoryCache/*.default/ Log && rm -r HistoryCache && echo -n "Select type:"  
 echo "--All | --Cookies | --Permissions | --Downloads | --Forms | --History | --Bookmarks | --Passwords | --Session | --Watch"
 read logs
 dumpzilla 'Log' $logs;;
@@ -133,22 +133,23 @@ X) exit ;;
 
 #### HELP##################################################################
 
-4) echo "\e[96m - პროგრამა მუშაობს სატესტო რეჟიმში, მისი მეშვეობით შეგიძლიათ აღადგინოთ ფლეშკიდან დაკარგული ინფორმაცია
-USB Flash, CD/DVD RW, Browser. სურათები,პროგრამები,ტექსტური ფაილები და სხვა თქვენთვის საჭირო დოკუმენტები
+4) echo "\e[96m - BETA Version V1.0
+
+USB Flash, CD/DVD RW, Browser Information Recover
            
-1) ფლეშკიდან ავტომატური აღდგენა
-2) დისკიდან ინფორმაციის აღდგენა
-3) ბრაუზერიდან ინფორმაციის აღდგენა 
-4) დახმარება
-5) განახლება                                                            
-X) გასვლა CYBSECGROUP ტერმინალიდან                            \e[0m" ;;
-5) echo "მიმდინარეობს განახლება..." && 
+1) Inf Recover from USB/Flash Drive
+2) Inf Recover from CD/DVD RW
+3) Inf Recover from browser
+4) Help
+5) Update                                                            
+X) Exit CYBSECGROUP CMD                            \e[0m" ;;
+5) echo "Loading... Update" && 
 sleep 3 && 
 xterm -e git clone https://github.com/CYBSECGROUP/DEEPRECOVER.git ;;
 esac 
 
 #### RELOAD#################################################################
 
-echo "\e[91m---------------> დააჭირე ენთერს\e[0m"
+echo "\e[91m---------------> Click Enter\e[0m"
 read input
 done
